@@ -1,0 +1,8 @@
+{
+    "open": false,
+    "notify": false,
+    "port": 8080,
+    "server": {
+        "baseDir" : "./public"
+    }
+}
