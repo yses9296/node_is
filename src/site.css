@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-menu{
+    @apply hover:text-white leading-6 hover:underline;
+}
+.article-border{
+    @apply border-b border-gray-200 mb-5 pb-5;
+}

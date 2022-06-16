@@ -558,6 +558,21 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.font-Oswald{
-  font-family: Oswald, sans-serif;
+.header-menu {
+  line-height: 1.5rem;
+}
+
+.header-menu:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.article-border {
+  margin-bottom: 1.25rem;
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
+  padding-bottom: 1.25rem;
 }
