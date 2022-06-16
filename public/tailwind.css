@@ -557,3 +557,7 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.font-Oswald{
+  font-family: Oswald, sans-serif;
+}

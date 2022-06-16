@@ -5,13 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind CSS - Tutorial #64 node.js</title>
-    <!-- <link rel="stylesheet" href="tailwind.css"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tailwind.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body >
-    <div class="bg-indigo-700">
-        <h1>This is Tailwind CSS Tutorial</h1>
-    </div>
+<body>
+    <header class="w-full bg-indigo-700 p-3 text-white">
+        <div class="flex justify-between">
+            <h1 class="font-Oswald text-4xl">Logo</h1>
+            <nav>
+                <ul class="flex gap-4">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
 </body>
 </html>
